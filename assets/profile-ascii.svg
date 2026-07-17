@@ -5,8 +5,8 @@
       <stop offset="0%" stop-color="#38BDF8" />
       <stop offset="60%" stop-color="#67E8F9" />
       <stop offset="100%" stop-color="#F8FAFC" />
-      <animate attributeName="x1" values="0%;100%;0%" dur="10s" repeatCount="indefinite" />
-      <animate attributeName="y1" values="0%;100%;0%" dur="10s" repeatCount="indefinite" />
+      <animate attributeName="x1" values="0%;100%;0%" dur="12s" repeatCount="indefinite" />
+      <animate attributeName="y1" values="0%;100%;0%" dur="12s" repeatCount="indefinite" />
     </linearGradient>
 
     <!-- Scanner Glow -->
@@ -35,53 +35,56 @@
     <path d="M 50 0 L 50 450 M 100 0 L 100 450 M 150 0 L 150 450 M 200 0 L 200 450 M 250 0 L 250 450 M 300 0 L 300 450 M 350 0 L 350 450 M 400 0 L 400 450" stroke="#ffffff" stroke-width="1" />
   </g>
 
-  <!-- ASCII Text Container -->
-  <g mask="url(#revealMask)" fill="url(#cyberGrad)" font-family="SF Mono, Fira Code, Consolas, monospace" font-size="9" letter-spacing="1.2">
-    <!-- Breathing Floating Motion -->
-    <g transform="translate(15, 25)">
-      <animateTransform attributeName="transform" type="translate" values="15,25; 15,20; 15,25" dur="6s" repeatCount="indefinite" />
+  <!-- ASCII Text Container (Ultra High Definition 72x40) -->
+  <g mask="url(#revealMask)" fill="url(#cyberGrad)" font-family="SF Mono, Fira Code, Consolas, monospace" font-size="7.2" letter-spacing="0.8">
+    <g transform="translate(15, 20)">
+      <animateTransform attributeName="transform" type="translate" values="15,20; 15,16; 15,20" dur="6s" repeatCount="indefinite" />
       
-      <text x="0" y="10">████#=.     -██#█████████.    -███@=@████=-███#%██%#██</text>
-      <text x="0" y="21">█#+*::.-. ::  @:%█+%%*█%#+.   =-*████#*#=-+█████@█████</text>
-      <text x="0" y="32">█#-:%@*+==███  =+█*#%+=-=+ . -=-@█#█████@*#@%=#@+-#███</text>
-      <text x="0" y="43">%%-%##█= :████  :=████*%+%█=..%█@:██████*+=█#:::--: -*</text>
-      <text x="0" y="54">-==+++.+:  =████ . #███#==██*  ███@███#--%++= ::=: .:==</text>
-      <text x="0" y="65">███%*#%*@%██%██- . @██%=*███+.+██%=███@%@%@%+@██%-*#█#</text>
-      <text x="0" y="76">██████████#%+*█*. %+█%+-*%█@..=██+@@#██#+--+:%%%@%##++</text>
-      <text x="0" y="87">██████████*█% -*  :%. ..*+*::.=+#++@█%%=-:=::-.=@#=-*█</text>
-      <text x="0" y="98">███████████*#@%*-  -  . .:. :.--+==##@+=-:..  .:=.:-#█</text>
-      <text x="0" y="109">█████████%#=+#. .     .   ::.:--=---+===::-.    : -*#%</text>
-      <text x="0" y="120">████████@--+-            :-=-- :::-==.::.-..: : :=+++=</text>
-      <text x="0" y="131">████████#:.  =- .        .     . :==+::=++:---=---::::</text>
-      <text x="0" y="142">███████#*=-  -- =+.              -+==++=++===+++==+:-=</text>
-      <text x="0" y="153">████@@#=:-..    -:=+*.      :-  :...::-------:---===++</text>
-      <text x="0" y="164">███@%++=..   .: :: :==   ...-=.  .:=+=---+--::.. :---+</text>
-      <text x="0" y="175">██@@@%+=:  .---:.  .-    .   .:: :=+-+==+=%+=-.:.-----</text>
-      <text x="0" y="186">█@@@█#*=:==+.. :-  :               ++=--===*--=-::-:. </text>
-      <text x="0" y="197">@%#@██@#==  -=.:-=                 :+=::-::.::    .   </text>
-      <text x="0" y="208">%*%@██#@+%*+=*==+=                 .=:.:--.     . .   </text>
-      <text x="0" y="219">█@██#%@@%%█%. :.:=                 .    =+-         : </text>
-      <text x="0" y="230">██%@█@#█@#%=.   :+                 --   :..    .:--:. </text>
-      <text x="0" y="241">+%##█████@=--++%+*=         .-    .=-:::      :.:::::.</text>
-      <text x="0" y="252">+%█#%██%#%***%#+**=              :-+:-:==-   =::  .:.:</text>
-      <text x="0" y="263">@%+=-=%###**%*=+==-:             .     ..    . :     .</text>
-      <text x="0" y="274">     -=*%:-=-*=.  - .%                             .  </text>
-      <text x="0" y="285">       .----::=+-   ██+         #+::.  .:             </text>
-      <text x="0" y="296">       :-.    .-%#█████=        #███+....  .          </text>
-      <text x="0" y="307">             =██████████-      *█████████%-.    :.    </text>
-      <text x="0" y="318">           #██████████%=█=  . =██#*%███████*  . ..  . </text>
-      <text x="0" y="329">          ████████████##%@@=. ##+*@█████████%         </text>
-      <text x="0" y="340">          ██████████████@%%%: *+@████████████         </text>
-      <text x="0" y="351">          ███████████@█████%++%#███████@█████*        </text>
-      <text x="0" y="362">    ..   :████████@@@@██████%%#@███████#@@█████       </text>
-      <text x="0" y="373">+#*+*#+  ██████████@%%███%@@#%#@███████*%██████     . </text>
-      <text x="0" y="384">██#=.-==  ███████████*%██#@%%#@█@█@███@+*#██████   :+:</text>
-      <text x="0" y="395">%*+%%++=- +██████████@%██%%**%@███@███###█████@█@   - </text>
+      <text x="0" y="10">████#r-'       -████+███████#████:      .#████#=X███████-=+████x*████*@█</text>
+      <text x="0" y="20">OcO*':  :.  :'.  #█r'██OOOO#x██O█x:.    ++xr███x█@#c#█O*='███████#██████</text>
+      <text x="0" y="30">*+==x*x=xc.=rO#-  '-=x█+*#crcr+.=x='.. 'X-'c██x████@██rxc*#cx#O███*+████</text>
+      <text x="0" y="40">x:+*███x*==x████@  -O:#█O██#X+rOrx-=:-'=+*█OX*█████████@xX███=-r+===--=█</text>
+      <text x="0" y="50">c=X@*+#█=  .c█████  .-.██████Xcc-O██x.'.c███x=██████@c+**'-xc'-.=*=-='. </text>
+      <text x="0" y="60">cr**c'-*:'.:*X█#███'.'.=█████O*=*███O..'*████*██#█@=+-X@*XO+ :--r=' ' -c</text>
+      <text x="0" y="70">@█#ccO#xc##O███X#█#+: '- ████X*rXX████:-'████*-█████@#x█r@#cx#███O#+*#O█</text>
+      <text x="0" y="80">████████████@#Xcr██O-'.*O=██xX=+rO#██+.:=c██#*██##███#xr+:rc:*@Ox##xX##c</text>
+      <text x="0" y="90">████████████*r#X :-*=   @c--'='*Xcx@=:''*r#█O+cOO#xXxr=--*r':**:*#█@cc=*</text>
+      <text x="0" y="100">████████████████+-O@c    x.  ' '==-:.==.+==rr**█@█@@**=-:'-':  '-=Xr:+:+</text>
+      <text x="0" y="110">█████████████X x█@+.*:  '.   ': .''-. ':+-+**++*ccXc=*=:-::.   ':-= '+*#</text>
+      <text x="0" y="120">██████████xrr#r*c-.   .     ... . .:==:=-=:=+-+=+*-=+=-:-=:..    .-:-rcx</text>
+      <text x="0" y="130">██████████c=:*-=      ..      . :'+=*--= ---:=-*+*.'-''-+- -- '-.'=++rrr</text>
+      <text x="0" y="140">███████#██+:'   -=- .'  .'       '. .  ' '' ':*=*+-.=+rr*=:+=-**====::-</text>
+      <text x="0" y="150">███████@@O*++   -c+ -cc-  '    .       .    'rc+r*cx*+crr*==+*cc*****=.:</text>
+      <text x="0" y="160">██████@#*===:'.    :-+-*=-c=    .  .'''-  .'=::::'-=++-++**+**=*++++*r+*</text>
+      <text x="0" y="170">██@#OOX*r-:-  '  .   +.==rr*-    '   :=*: .'. :-=*=-==-*+:--:'.'::-+=+++</text>
+      <text x="0" y="180">██@█Xr*r-' .'  :.== '-:  '-*.  . '--':=+= .'.--+**r*+=-+xr+*+==..' :=-=-</text>
+      <text x="0" y="190">@@@@@#*x++-.  =--=:=:    -=      .     .--:. -+r+-+c=*X++xc*++: -::=+-=+</text>
+      <text x="0" y="200">@#@██#Xc*'=c=O-.: .:-*  :-.              .     +r**-=-==*=rc=++*+--:--'.</text>
+      <text x="0" y="210">X##██@@@#c*+. .-+:.:=-r' '                     .rrr+-:+:=-=:--'..   - ..</text>
+      <text x="0" y="220">cx████@#@c*O+=++xX+=r+*.                        +*-:':*:-'  .' . ': *   </text>
+      <text x="0" y="230">O#█O#O#@#XxO@@c:'--=*+r               .'        + ::':'c+*   - :        </text>
+      <text x="0" y="240">████@#X@##XX█Or  ''  :c                        :.     .r:+   -       + :</text>
+      <text x="0" y="250">█cX███#███#O**=:-' '-=r'                       -*c:.  :.     .  =.r+'*: </text>
+      <text x="0" y="260">O##@███@███@*===xxxOxrr#'             +*     .'+=:-:== .'     .-- :- +:.</text>
+      <text x="0" y="270">O█#XX@█#xOxcXrxcx##**cr*-                    --c+:=-'**=+.'  =*.+  . == </text>
+      <text x="0" y="280">XX*r+*x##OO#XcXXxr+xrrr*::'                 ' .':' . -:-  .   - =  .    </text>
+      <text x="0" y="290">    .=rrX#c=-+*+r#-.'  =-' .:                :       .        .      .: </text>
+      <text x="0" y="300">      ' =r=:+*+:-+=+:'..  +██'            =*:  ::.   '- .     :         </text>
+      <text x="0" y="310">        ::=+...-.'+**r.  +████             ██@Xr-.   .:       . .:      </text>
+      <text x="0" y="320">       .:+-       '=c██████████-           X█████Xccr=-'  -:     '      </text>
+      <text x="0" y="330">               .+@██████████████*.       +██████c███████#r'      =-:'   </text>
+      <text x="0" y="340">             =███████████████O=c█c...''''████O*XO██████████-   : .' - .+</text>
+      <text x="0" y="350">            #████████████████x#O#O█x-.' *█Or*x@█████████████r          =</text>
+      <text x="0" y="360">           :████████████████████x#O█#*  Xrcx█#███████████████. -  '     </text>
+      <text x="0" y="370">           '██████████████████████xX*=+ xXO█@███████████@████c          </text>
+      <text x="0" y="380">            ███████████████#█@███████r@Xx@O█#█@██████O██@██████*        </text>
+      <text x="0" y="390"> .. *+     X████████████X#@#@█#██#█@█XxXX@#██████████x█X████████   .  . </text>
+      <text x="0" y="400">#Xxxc#X+  .███████████@███XOX████x@#@#XOO#█@█@███@██@rXO████████ -  = .-</text>
     </g>
   </g>
 
   <!-- Scanner Line Sweep (Subtle Ice Blue) -->
-  <line x1="10" y1="0" x2="440" y2="0" stroke="#38BDF8" stroke-width="1" filter="url(#glow)" opacity="0.4">
+  <line x1="10" y1="0" x2="440" y2="0" stroke="#38BDF8" stroke-width="1.2" filter="url(#glow)" opacity="0.4">
     <animate attributeName="y1" values="0;450" dur="4.5s" repeatCount="indefinite" />
     <animate attributeName="y2" values="0;450" dur="4.5s" repeatCount="indefinite" />
     <animate attributeName="opacity" values="0;0.4;0.4;0" keyTimes="0;0.1;0.9;1" dur="4.5s" repeatCount="indefinite" />
