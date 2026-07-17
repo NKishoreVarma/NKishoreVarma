@@ -1,94 +1,137 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="450" height="450" viewBox="0 0 450 450">
   <defs>
-    <!-- Ice Blue -> Soft Cyan -> White highlights -->
-    <linearGradient id="cyberGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#38BDF8" />
-      <stop offset="60%" stop-color="#67E8F9" />
-      <stop offset="100%" stop-color="#F8FAFC" />
-      <animate attributeName="x1" values="0%;100%;0%" dur="12s" repeatCount="indefinite" />
-      <animate attributeName="y1" values="0%;100%;0%" dur="12s" repeatCount="indefinite" />
+    <!-- Soft sky blue -> baby blue highlight gradient -->
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#89CFF0" />
+      <stop offset="100%" stop-color="#5DADE2" />
     </linearGradient>
 
-    <!-- Scanner Glow -->
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="2" result="blur" />
-      <feMerge>
-        <feMergeNode in="blur" />
-        <feMergeNode in="SourceGraphic" />
-      </feMerge>
-    </filter>
+    <!-- Radial Glow behind head -->
+    <radialGradient id="headGlow" cx="50%" cy="45%" r="40%">
+      <stop offset="0%" stop-color="#5DADE2" stop-opacity="0.18" />
+      <stop offset="100%" stop-color="#5DADE2" stop-opacity="0" />
+    </radialGradient>
 
-    <!-- Reveal Mask for line-by-line typing reveal -->
+    <!-- Reveal mask for layout entry -->
     <mask id="revealMask">
       <rect x="0" y="0" width="450" height="0" fill="#ffffff">
-        <animate attributeName="height" to="450" dur="2.5s" begin="0.2s" fill="freeze" keyTimes="0;1" calcMode="spline" keySplines="0.1 0.8 0.2 1" />
+        <animate attributeName="height" to="450" dur="2.2s" begin="0.1s" fill="freeze" keyTimes="0;1" calcMode="spline" keySplines="0.1 0.8 0.2 1" />
       </rect>
     </mask>
   </defs>
 
-  <!-- Deep Navy Background -->
-  <rect width="100%" height="100%" fill="#020617" rx="12" />
+  <style>
+    .contour-line { fill: none; stroke: url(#accentGrad); stroke-linecap: round; stroke-linejoin: round; }
+    .contour-primary { stroke-width: 1.6; }
+    .contour-secondary { stroke-width: 1.0; opacity: 0.6; }
+    .contour-stubble { stroke: #94A3B8; stroke-width: 1.0; stroke-dasharray: 2 3; opacity: 0.7; }
+    .fill-dark { fill: #050816; }
+    .fill-panel { fill: #0F172A; }
+    .tech-text { font-family: "SF Mono", "Fira Code", Consolas, monospace; font-size: 8px; fill: #5DADE2; opacity: 0.6; }
+  </style>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#050816" rx="12" />
 
   <!-- Grid overlay -->
-  <g opacity="0.02">
+  <g opacity="0.015">
     <path d="M 0 50 L 450 50 M 0 100 L 450 100 M 0 150 L 450 150 M 0 200 L 450 200 M 0 250 L 450 250 M 0 300 L 450 300 M 0 350 L 450 350 M 0 400 L 450 400" stroke="#ffffff" stroke-width="1" />
     <path d="M 50 0 L 50 450 M 100 0 L 100 450 M 150 0 L 150 450 M 200 0 L 200 450 M 250 0 L 250 450 M 300 0 L 300 450 M 350 0 L 350 450 M 400 0 L 400 450" stroke="#ffffff" stroke-width="1" />
   </g>
 
-  <!-- ASCII Text Container (Ultra High Definition 72x40 - Web Safe) -->
-  <g mask="url(#revealMask)" fill="url(#cyberGrad)" font-family="SF Mono, Fira Code, Consolas, monospace" font-size="7.2" letter-spacing="0.8">
-    <g transform="translate(15, 20)">
-      <animateTransform attributeName="transform" type="translate" values="15,20; 15,16; 15,20" dur="6s" repeatCount="indefinite" />
-      
-      <text x="0" y="10">                        '::-=rxxxxxxxxxxxxr=-::'                        </text>
-      <text x="0" y="20">                      :-+***rcxxxxxxxxxxxxcr***+-:                      </text>
-      <text x="0" y="30">                   :-+*rccxxxxxxxxxxxxxxxxxxxxxcr*+-:                   </text>
-      <text x="0" y="40">                '-+*rcxxxxxxxxxxxxxxxxxxxxxxxxxxxxcr*+-'                </text>
-      <text x="0" y="50">              '-+rcxxxxXXXO#XxxxxXxXXXXXXXXXXxXXXXxxxcr+-'              </text>
-      <text x="0" y="60">             :+rcxxxxXX#WWWWW@##OXXXXXxxxXXXXXXXXXXXXXxcr+:             </text>
-      <text x="0" y="70">           '-*cxxO#WWWWWWWWWWWWWWWWWWWWWOXXXXXXOXXXXXXXXxc*-'           </text>
-      <text x="0" y="80">          :+rxx#WWWWWWWWWWWWWWWWWWWWWWWWWrO#OXXXXXXXXXXXXXxr+:          </text>
-      <text x="0" y="90">         -*X@@@WWWWWWWXWWWWWWW#xWWWWW@WWWWWWWW@OOOOXXXXXXXXxc*-         </text>
-      <text x="0" y="100">        =rO@@WWWWWWWWWWWWWWWWWWWWWWWWWWWWWOW#XWWWWW@#XXXXOOXXx*-        </text>
-      <text x="0" y="110">       =cO@@WWWWWWWWWWWWWWWWXX@@WWWWWWWWWWWW@OWWWWWWWWWWW@###Xx*-       </text>
-      <text x="0" y="120">      =cO@@WWWWWWWWWWWWWWWWWWWcx@WWWWWWW@WWWWWWO@WWWWWWWWWWWWOOxr-      </text>
-      <text x="0" y="130">     :rO@@WWWWWWWWWWWXWWWWWWWW@WWWWWWW#c@WWWWWWWWWWWWWWWWWWW@##OX*:     </text>
-      <text x="0" y="140">     +X@@WWWWWWWWWWW#@@WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW@WWWW#@#x=     </text>
-      <text x="0" y="150">     r#@WW@XWWWWWWWWWWWWWWWWX*XWWWWWWWWWWWWWWWWWWWWWW@XWWWWWWWW@@Or     </text>
-      <text x="0" y="160">    -x#@XWWWWWWWWWWWWWWWWWWW@-cxXXWxrWWWWWWW*=+rWWWWWWWWWWWWWWW@@#x-    </text>
-      <text x="0" y="170">    +X@@WWWWWWWWO@@WWWXr#WWWW-+@WWx'#XxXx+*r==+*xO@WWWWWWWW#@W###OX+    </text>
-      <text x="0" y="180">    r#@WWWWWWWWWWW@##Wx=cWW-   :'  +X*+*:. .:-=*ccxWWWWWWWWWWWWWW@#r    </text>
-      <text x="0" y="190">   -x#@WWWWWWWWWWWWW#xc@WOrc*.     ::':        .+*xWWWWWWWWWWWWWW@#x-   </text>
-      <text x="0" y="200">   -x@@WWWWWWWWWWWWWW@XW@+OWWWW@#@x+c*.       .=XWWWWWWWWWWWWWWWW@@x-   </text>
-      <text x="0" y="210">   -x@@WWWr#WWWWWW##OOx=   ':=++---=cW#+:    '=***rcWWO#WWWWWWWWW@@x-   </text>
-      <text x="0" y="220">   -x#@WW:   =cWWWO+=*W@c:       :=-.:rcc+ .+=  +rrcxXxO@@WWWWWWW@#x-   </text>
-      <text x="0" y="230">    r#@WWX      xWc+:'-=++rr+:           :c+xWr .::*xO@WOrWWWWWWW@#r    </text>
-      <text x="0" y="240">    +X@@WWr .  . c@r=-.     '            =   r* ..:XW@@xrWWWWWWW@@X+    </text>
-      <text x="0" y="250">    -x#@WWWWc:. .*@x++='    .           :    .x-':+@@OcxWWWWWWWW@#x-    </text>
-      <text x="0" y="260">     r#@WWWWWWWWW=xOc*+=:                     -r-rWWWWWWWWWWWWWW@#r     </text>
-      <text x="0" y="270">     +X@@WWWWWWWWx=Xc*=+=-'.                 '==*WWWWWWWWWWWWWW@@X+     </text>
-      <text x="0" y="280">     :rO@@WWWWWWWW-r#r=---::'.    .':'---+=-r#OWWWWWWWWWWWWWWW@@Or:     </text>
-      <text x="0" y="290">      =cO@@WWWWWW#*:*Ox*----::. :+--:...'-::=+rWWWWWWWWWWWWWW@@Oc=      </text>
-      <text x="0" y="300">       =cO@@WWW  .c-:-xOx*-:--:::....'' .':=-+-WWWWWWWWWWWWW@@Oc=       </text>
-      <text x="0" y="310">        =cO@@x   *r=-::=x##Xc*=:''''':::+cc-+r  O@WWWWWWWWW@@Oc=        </text>
-      <text x="0" y="320">         =cO+  -*=+*=-:':=rx#WWOc+:'.  .-=+c@r.      -*x#@@@Oc=         </text>
-      <text x="0" y="330">              .*---*+=-::::::-+r#WWWW#O###@Wc-=            .''          </text>
-      <text x="0" y="340">               ::::=+++=-:--::::-=*cxXxXxr='':-                         </text>
-      <text x="0" y="350">               ...':=====---------:'':-:-==+++*                         </text>
-      <text x="0" y="360">                .':-==--=-::::'.''''-====++=---                         </text>
-      <text x="0" y="370">                .':----:''''::':::'':---::''':                          </text>
-      <text x="0" y="380">                     .... .'''''''''''''''':'                           </text>
-      <text x="0" y="390">                        .. ........  ..''''                             </text>
-      <text x="0" y="400">                                     ..'''                              </text>
-    </g>
+  <!-- Bounding Corner Brackets -->
+  <g stroke="#5DADE2" stroke-width="1" opacity="0.3" fill="none">
+    <path d="M 25 45 L 25 25 L 45 25" />
+    <path d="M 405 25 L 425 25 L 425 45" />
+    <path d="M 25 405 L 25 425 L 45 425" />
+    <path d="M 405 425 L 425 425 L 425 405" />
   </g>
 
-  <!-- Scanner Line Sweep (Subtle Ice Blue) -->
-  <line x1="10" y1="0" x2="440" y2="0" stroke="#38BDF8" stroke-width="1.2" filter="url(#glow)" opacity="0.4">
-    <animate attributeName="y1" values="0;450" dur="4.5s" repeatCount="indefinite" />
-    <animate attributeName="y2" values="0;450" dur="4.5s" repeatCount="indefinite" />
-    <animate attributeName="opacity" values="0;0.4;0.4;0" keyTimes="0;0.1;0.9;1" dur="4.5s" repeatCount="indefinite" />
-  </line>
+  <!-- Technical Labels -->
+  <g class="tech-text">
+    <text x="35" y="40">SYS.PORTRAIT // NAGARAJU KISHORE VARMA</text>
+    <text x="35" y="415">LOC: 16.5000° N, 80.6400° E</text>
+    <text x="415" y="40" text-anchor="end">STATUS: ACTIVE</text>
+    <text x="415" y="415" text-anchor="end">OS: FLOW_OS_v0.9.0</text>
+  </g>
+
+  <!-- Portrait Graphic with reveal mask -->
+  <g mask="url(#revealMask)">
+    <!-- Ambient Glow behind Head -->
+    <circle cx="225" cy="210" r="140" fill="url(#headGlow)" />
+
+    <!-- Face Shape -->
+    <path class="contour-line contour-primary fill-panel" d="M 165,185 C 165,260 190,308 222,308 C 255,308 280,260 280,185 C 280,160 268,145 222,145 C 176,145 165,160 165,185 Z" />
+
+    <!-- Ears -->
+    <path class="contour-line contour-secondary" d="M 165,188 C 158,188 156,202 163,208" />
+    <path class="contour-line contour-secondary" d="M 280,188 C 287,188 289,202 282,208" />
+
+    <!-- Volumetric Curly Hair Base -->
+    <path class="contour-line contour-primary fill-dark" d="M 152,185 C 142,140 148,95 178,78 C 193,70 215,65 230,75 C 248,68 275,68 290,82 C 304,95 306,120 302,140 C 310,150 308,168 294,185 C 288,190 280,185 280,185 Z" />
+
+    <!-- Hair Curvature Textures -->
+    <path class="contour-line contour-secondary" d="M 160,150 C 170,120 190,110 210,130" />
+    <path class="contour-line contour-secondary" d="M 180,130 C 195,100 220,105 235,135" />
+    <path class="contour-line contour-secondary" d="M 200,142 C 210,120 225,120 232,145" />
+    <path class="contour-line contour-secondary" d="M 240,110 C 255,85 280,100 290,130" />
+    <path class="contour-line contour-secondary" d="M 175,90 C 200,75 230,80 250,95" />
+    <path class="contour-line contour-secondary" d="M 220,70 C 245,60 270,68 285,85" />
+
+    <!-- Eyeglasses (Rectangular Clear Frames) -->
+    <rect x="175" y="174" width="44" height="32" rx="4" fill="none" stroke="#89CFF0" stroke-width="1.8" />
+    <rect x="231" y="174" width="44" height="32" rx="4" fill="none" stroke="#89CFF0" stroke-width="1.8" />
+    <path class="contour-line" d="M 219,182 L 231,182" stroke-width="2.2" />
+    <!-- Reflections -->
+    <path d="M 178,178 L 190,198 M 234,178 L 246,198" stroke="#F8FAFC" stroke-width="1.2" stroke-linecap="round" opacity="0.3" />
+
+    <!-- Eyes (Looking down-left) -->
+    <path class="contour-line contour-secondary" d="M 185,190 C 190,187 200,187 205,190 M 187,190 C 192,194 198,194 203,190" />
+    <path class="contour-line contour-secondary" d="M 241,190 C 246,187 256,187 261,190 M 243,190 C 248,194 254,194 259,190" />
+    <circle cx="196" cy="190" r="1.8" fill="#F8FAFC" />
+    <circle cx="252" cy="190" r="1.8" fill="#F8FAFC" />
+    <!-- Eyebrows -->
+    <path class="contour-line" d="M 180,180 Q 195,174 208,181" stroke-width="1.5" />
+    <path class="contour-line" d="M 238,181 Q 251,174 266,180" stroke-width="1.5" />
+
+    <!-- Nose -->
+    <path class="contour-line contour-primary" d="M 223,185 L 223,222 Q 223,227 218,226" />
+    <path class="contour-line contour-secondary" d="M 226,223 Q 229,222 227,225" />
+
+    <!-- Lips (Serious expression) -->
+    <path class="contour-line contour-primary" d="M 207,242 Q 222,238 239,241" />
+    <path class="contour-line contour-secondary" d="M 212,246 Q 222,249 233,246" />
+
+    <!-- Stubble, Mustache & Chinstrap Beard -->
+    <path class="contour-line contour-stubble" d="M 172,215 C 172,255 192,296 222,296 C 252,296 272,255 272,215" />
+    <path class="contour-line contour-stubble" d="M 206,236 Q 222,231 238,236" />
+    <path class="contour-line contour-stubble" d="M 217,258 Q 222,260 227,258" />
+
+    <!-- Neck -->
+    <path class="contour-line contour-secondary" d="M 194,288 L 194,305 M 250,288 L 250,305" />
+
+    <!-- Gold Chain Highlight -->
+    <path d="M 208,318 C 213,326 229,326 234,318" stroke="#F59E0B" stroke-width="1.0" fill="none" opacity="0.8" />
+
+    <!-- V-Neck Striped Collared Shirt -->
+    <path class="contour-line contour-primary fill-dark" d="M 194,302 L 174,342 L 208,352 L 222,320 L 236,352 L 270,342 L 250,302 Z" />
+    <path class="contour-line contour-secondary" d="M 210,302 L 222,320 L 234,302" />
+    <path class="contour-line contour-primary fill-panel" d="M 155,342 C 130,360 106,400 106,415 L 338,415 C 338,400 314,360 289,342 Z" />
+    
+    <!-- Vertical Stripes on Shirt -->
+    <line class="contour-line contour-secondary" x1="140" y1="365" x2="130" y2="415" stroke-dasharray="3 3" />
+    <line class="contour-line contour-secondary" x1="175" y1="350" x2="170" y2="415" stroke-dasharray="3 3" />
+    <line class="contour-line contour-secondary" x1="205" y1="355" x2="205" y2="415" stroke-dasharray="3 3" />
+    <line class="contour-line contour-secondary" x1="239" y1="355" x2="239" y2="415" stroke-dasharray="3 3" />
+    <line class="contour-line contour-secondary" x1="269" y1="350" x2="274" y2="415" stroke-dasharray="3 3" />
+    <line class="contour-line contour-secondary" x1="304" y1="365" x2="314" y2="415" stroke-dasharray="3 3" />
+
+    <!-- Crossed Arms -->
+    <path class="contour-line contour-primary fill-panel" d="M 96,405 C 96,405 146,370 222,370 C 298,370 348,405 348,405 L 338,438 L 106,438 Z" />
+    <path class="contour-line contour-primary" d="M 104,412 C 156,388 216,388 256,402" />
+    <path class="contour-line contour-primary" d="M 338,412 C 286,388 226,388 186,402" />
+    <path class="contour-line contour-secondary" d="M 126,425 Q 222,405 318,425" />
+  </g>
 
   <!-- Border Frame -->
   <rect x="0.5" y="0.5" width="449" height="449" fill="none" stroke="rgba(255, 255, 255, 0.08)" stroke-width="1" rx="12" />
