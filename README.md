@@ -9,9 +9,9 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/NKishoreVarma"><img src="https://img.shields.io/github/followers/NKishoreVarma?style=flat-square&amp;color=22D3EE&amp;labelColor=030712" alt="GitHub Followers" /></a>
-  <a href="https://github.com/NKishoreVarma?tab=repositories"><img src="https://img.shields.io/github/stars/NKishoreVarma?style=flat-square&amp;color=7C3AED&amp;labelColor=030712" alt="GitHub Stars" /></a>
-  <img src="https://img.shields.io/badge/Location-Andhra%20Pradesh,%20India-10B981?style=flat-square&amp;labelColor=030712" alt="Location" />
+  <a href="https://github.com/NKishoreVarma"><img src="https://img.shields.io/github/followers/NKishoreVarma?style=flat-square&amp;color=38BDF8&amp;labelColor=020617" alt="GitHub Followers" /></a>
+  <a href="https://github.com/NKishoreVarma?tab=repositories"><img src="https://img.shields.io/github/stars/NKishoreVarma?style=flat-square&amp;color=60A5FA&amp;labelColor=020617" alt="GitHub Stars" /></a>
+  <img src="https://img.shields.io/badge/Location-Andhra%20Pradesh,%20India-14B8A6?style=flat-square&amp;labelColor=020617" alt="Location" />
 </p>
 
 ---
@@ -129,8 +129,8 @@ I believe in picking the right tool for the job. Here is the stack I use to buil
 ## 📈 Git Activity & Metrics
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=NKishoreVarma&amp;show_icons=true&amp;theme=dark&amp;bg_color=030712&amp;title_color=22D3EE&amp;text_color=94A3B8&amp;icon_color=7C3AED&amp;border_color=1e293b&amp;hide_rank=true" width="48%" alt="Varma's GitHub Stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=NKishoreVarma&amp;theme=dark&amp;background=030712&amp;ring=7C3AED&amp;fire=22D3EE&amp;currStreakNum=10B981&amp;sideNums=94A3B8&amp;sideLabels=94A3B8&amp;dates=94A3B8&amp;stroke=1e293b" width="48%" alt="Varma's Streak Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=NKishoreVarma&amp;show_icons=true&amp;theme=dark&amp;bg_color=020617&amp;title_color=38BDF8&amp;text_color=94A3B8&amp;icon_color=60A5FA&amp;border_color=1f2937&amp;hide_rank=true" width="48%" alt="Varma's GitHub Stats" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=NKishoreVarma&amp;theme=dark&amp;background=020617&amp;ring=60A5FA&amp;fire=38BDF8&amp;currStreakNum=14B8A6&amp;sideNums=94A3B8&amp;sideLabels=94A3B8&amp;dates=94A3B8&amp;stroke=1f2937" width="48%" alt="Varma's Streak Stats" />
 </p>
 
 ---

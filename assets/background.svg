@@ -2,33 +2,33 @@
   <defs>
     <!-- Background Base Gradient -->
     <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#030712" />
-      <stop offset="100%" stop-color="#090f24" />
+      <stop offset="0%" stop-color="#020617" />
+      <stop offset="100%" stop-color="#0b1329" />
     </linearGradient>
 
     <!-- Floating Glow Gradients -->
-    <radialGradient id="glowPurple" cx="20%" cy="20%" r="50%">
-      <stop offset="0%" stop-color="#7C3AED" stop-opacity="0.15" />
-      <stop offset="100%" stop-color="#7C3AED" stop-opacity="0" />
+    <radialGradient id="glowBlue" cx="20%" cy="20%" r="50%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.10" />
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0" />
     </radialGradient>
-    <radialGradient id="glowCyan" cx="80%" cy="80%" r="60%">
-      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0.12" />
-      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0" />
+    <radialGradient id="glowSoftBlue" cx="80%" cy="80%" r="60%">
+      <stop offset="0%" stop-color="#60A5FA" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#60A5FA" stop-opacity="0" />
     </radialGradient>
-    <radialGradient id="glowEmerald" cx="50%" cy="50%" r="45%">
-      <stop offset="0%" stop-color="#10B981" stop-opacity="0.08" />
-      <stop offset="100%" stop-color="#10B981" stop-opacity="0" />
+    <radialGradient id="glowTeal" cx="50%" cy="50%" r="45%">
+      <stop offset="0%" stop-color="#14B8A6" stop-opacity="0.05" />
+      <stop offset="100%" stop-color="#14B8A6" stop-opacity="0" />
     </radialGradient>
 
     <!-- Grid Pattern -->
     <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(255, 255, 255, 0.03)" stroke-width="1" />
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(255, 255, 255, 0.015)" stroke-width="1" />
     </pattern>
 
     <!-- Noise Filter -->
     <filter id="noiseFilter">
       <feTurbulence type="fractalNoise" baseFrequency="0.65" numOctaves="3" stitchTiles="stitch" />
-      <feColorMatrix type="matrix" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.04 0" />
+      <feColorMatrix type="matrix" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.03 0" />
     </filter>
   </defs>
 
@@ -36,9 +36,9 @@
   <rect width="100%" height="100%" fill="url(#bgGrad)" />
 
   <!-- Radial Glows -->
-  <circle cx="240" cy="150" r="400" fill="url(#glowPurple)" />
-  <circle cx="940" cy="460" r="500" fill="url(#glowCyan)" />
-  <circle cx="590" cy="305" r="350" fill="url(#glowEmerald)" />
+  <circle cx="240" cy="150" r="400" fill="url(#glowBlue)" />
+  <circle cx="940" cy="460" r="500" fill="url(#glowSoftBlue)" />
+  <circle cx="590" cy="305" r="350" fill="url(#glowTeal)" />
 
   <!-- Grid Overlay -->
   <rect width="100%" height="100%" fill="url(#grid)" />
