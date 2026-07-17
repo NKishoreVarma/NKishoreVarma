@@ -90,45 +90,45 @@
         <animateTransform attributeName="transform" type="translate" values="0,0; 0,-5; 0,0" dur="6s" repeatCount="indefinite" />
         
         <g fill="url(#cyberGrad)" class="font-mono" font-size="7.5" letter-spacing="0.9">
-          <text x="0" y="10">                       :-==+*rxxxxxxxxxxxxr*+==-:                       </text>
-          <text x="0" y="20">                     :-=++**rcxxxxxxxxxxxxcr**++=-:                     </text>
-          <text x="0" y="30">                  ':-=+*rrcccxxxxxxxxxxxxxxcccrr*+=-:'                  </text>
-          <text x="0" y="40">                ':-=*rrcccxxxxxxxxxxxxxxxxxxxxxccrr*+-:'                </text>
-          <text x="0" y="50">               :-+*rccxxXXO#XxxxxXxXXXXXXXXXXxxxxxxcr*+-:               </text>
-          <text x="0" y="60">             :-+*rrccXX#@████@##OXXXXXxxxXXXXXXXXxXxxcr*+=:             </text>
-          <text x="0" y="70">           '-=*rcX#@@@██████████████████OXXXXXXOXXXXXxxcr*+-'           </text>
-          <text x="0" y="80">          '-+rrX@@@@█████████████████████rO#OXXXXXXXXXXxxcr+-'          </text>
-          <text x="0" y="90">         :-*XO#@@@████X███████#x█████@████████@OOOOXXXXXXxxr+-'         </text>
-          <text x="0" y="100">        :=rX#@@@██████████████████████████O█#X█████@#XXXXXXxr*-'        </text>
-          <text x="0" y="110">        +rX#@@@███████████████@@████████████@O███████████@O#Oc*-        </text>
-          <text x="0" y="120">       =rX#@@@████████████████cx@███████@██████O@█████████@@@Xc*-       </text>
-          <text x="0" y="130">      -*x#@@@████████X████████@███████#c@██████████████████@@OXc+-      </text>
-          <text x="0" y="140">      +cO@@@████████#@@██████████████████████████████████@██@@OXc+      </text>
-          <text x="0" y="150">     -rX#@@X████████████████X*X██████████████████████@X██████@@#Xr-     </text>
-          <text x="0" y="160">     +cOX@██████████████████@-cxXX█xr███████*=+r██████████████@@Oc+     </text>
-          <text x="0" y="170">    -*X#@@██████O@@███Xr#████-+@██x'#XxXx+*r==+*xO@████████#@█##Oc*-    </text>
-          <text x="0" y="180">    =rO@@█████████@##█x=c██-   :'  +X*+*:. .:-=*ccx████████████@@Or=    </text>
-          <text x="0" y="190">    =cO@@███████████#xc@█Orc*.     ::':        .+*x████████████@@Oc=    </text>
-          <text x="0" y="200">    =cO@@████████████@X█@+O████@#@x+c*.       .=X██████████████@@Oc=    </text>
-          <text x="0" y="210">    =cO@@█r#██████##OOx=   ':=++---=c█#+:    '=***rc██O#███████@@Oc=    </text>
-          <text x="0" y="220">    =cO@@:   =c███O+=*█@c:       :=-.:rcc+ .+=  +rrcxXxO@@█████@@Oc=    </text>
-          <text x="0" y="230">    =rO@@X      x█c+:'-=++rr+:           :c+x█r .::*xO@█Or█████@@Or=    </text>
-          <text x="0" y="240">    -*X#@@r .  . c@r=-.     '            =   r* ..:X█@@xr█████@@#X*-    </text>
-          <text x="0" y="250">     +cO@@██c:. .*@x++='    .           :    .x-':+@@Ocx██████@@Oc+     </text>
-          <text x="0" y="260">     -rX#@@██████=xOc*+=:                     -r-r███████████@@#Xr-     </text>
-          <text x="0" y="270">      +cO@@@█████x=Xc*=+=-'.                 '==*███████████@@@Oc+      </text>
-          <text x="0" y="280">      -*x#@@@█████-r#r=---::'.    .':'---+=-r#O████████████@@@#x*-      </text>
-          <text x="0" y="290">       =rX#@@@███#*:*Ox*----::. :+--:...'-::=+r███████████@@@#Xr=       </text>
-          <text x="0" y="300">        +rX#@@@  .c-:-xOx*-:--:::....'' .':=-+-██████████@@@#Xr+        </text>
-          <text x="0" y="310">        :+rX#x   *r=-::=x##Xc*=:''''':::+cc-+r  O@██████@@@#Xr+:        </text>
-          <text x="0" y="320">         :+r=  -+=+*=-:':=rx#██Oc+:'.  .-=+c@r.      -*x#@#Xr+:         </text>
-          <text x="0" y="330">              .+-:-*+=-::::::-+r#████#O###@█c-=            .'.          </text>
-          <text x="0" y="340">               ''':-+++=-:--::::-=*cxXxXxr='':-                         </text>
-          <text x="0" y="350">               ....:-====---------:'':-:-==+++*                         </text>
-          <text x="0" y="360">                ..':==--=-::::'.''''-====++=---                         </text>
-          <text x="0" y="370">                ..'':::::'''':'':::'':---::'.':                          </text>
-          <text x="0" y="380">                     .... .'''''''''''''''''.                           </text>
-          <text x="0" y="390">                        .  ........  ..''''                             </text>
+          <text x="0" y="10">                        '::-=rxxxxxxxxxxxxr=-::'                        </text>
+          <text x="0" y="20">                      :-+***rcxxxxxxxxxxxxcr***+-:                      </text>
+          <text x="0" y="30">                   :-+*rccxxxxxxxxxxxxxxxxxxxxxcr*+-:                   </text>
+          <text x="0" y="40">                '-+*rcxxxxxxxxxxxxxxxxxxxxxxxxxxxxcr*+-'                </text>
+          <text x="0" y="50">              '-+rcxxxxXXXO#XxxxxXxXXXXXXXXXXxXXXXxxxcr+-'              </text>
+          <text x="0" y="60">             :+rcxxxxXX#WWWWW@##OXXXXXxxxXXXXXXXXXXXXXxcr+:             </text>
+          <text x="0" y="70">           '-*cxxO#WWWWWWWWWWWWWWWWWWWWWOXXXXXXOXXXXXXXXxc*-'           </text>
+          <text x="0" y="80">          :+rxx#WWWWWWWWWWWWWWWWWWWWWWWWWrO#OXXXXXXXXXXXXXxr+:          </text>
+          <text x="0" y="90">         -*X@@@WWWWWWWXWWWWWWW#xWWWWW@WWWWWWWW@OOOOXXXXXXXXxc*-         </text>
+          <text x="0" y="100">        =rO@@WWWWWWWWWWWWWWWWWWWWWWWWWWWWWOW#XWWWWW@#XXXXOOXXx*-        </text>
+          <text x="0" y="110">       =cO@@WWWWWWWWWWWWWWWWXX@@WWWWWWWWWWWW@OWWWWWWWWWWW@###Xx*-       </text>
+          <text x="0" y="120">      =cO@@WWWWWWWWWWWWWWWWWWWcx@WWWWWWW@WWWWWWO@WWWWWWWWWWWWOOxr-      </text>
+          <text x="0" y="130">     :rO@@WWWWWWWWWWWXWWWWWWWW@WWWWWWW#c@WWWWWWWWWWWWWWWWWWW@##OX*:     </text>
+          <text x="0" y="140">     +X@@WWWWWWWWWWW#@@WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW@WWWW#@#x=     </text>
+          <text x="0" y="150">     r#@WW@XWWWWWWWWWWWWWWWWX*XWWWWWWWWWWWWWWWWWWWWWW@XWWWWWWWW@@Or     </text>
+          <text x="0" y="160">    -x#@XWWWWWWWWWWWWWWWWWWW@-cxXXWxrWWWWWWW*=+rWWWWWWWWWWWWWWW@@#x-    </text>
+          <text x="0" y="170">    +X@@WWWWWWWWO@@WWWXr#WWWW-+@WWx'#XxXx+*r==+*xO@WWWWWWWW#@W###OX+    </text>
+          <text x="0" y="180">    r#@WWWWWWWWWWW@##Wx=cWW-   :'  +X*+*:. .:-=*ccxWWWWWWWWWWWWWW@#r    </text>
+          <text x="0" y="190">   -x#@WWWWWWWWWWWWW#xc@WOrc*.     ::':        .+*xWWWWWWWWWWWWWW@#x-   </text>
+          <text x="0" y="200">   -x@@WWWWWWWWWWWWWW@XW@+OWWWW@#@x+c*.       .=XWWWWWWWWWWWWWWWW@@x-   </text>
+          <text x="0" y="210">   -x@@WWWr#WWWWWW##OOx=   ':=++---=cW#+:    '=***rcWWO#WWWWWWWWW@@x-   </text>
+          <text x="0" y="220">   -x#@WW:   =cWWWO+=*W@c:       :=-.:rcc+ .+=  +rrcxXxO@@WWWWWWW@#x-   </text>
+          <text x="0" y="230">    r#@WWX      xWc+:'-=++rr+:           :c+xWr .::*xO@WOrWWWWWWW@#r    </text>
+          <text x="0" y="240">    +X@@WWr .  . c@r=-.     '            =   r* ..:XW@@xrWWWWWWW@@X+    </text>
+          <text x="0" y="250">    -x#@WWWWc:. .*@x++='    .           :    .x-':+@@OcxWWWWWWWW@#x-    </text>
+          <text x="0" y="260">     r#@WWWWWWWWW=xOc*+=:                     -r-rWWWWWWWWWWWWWW@#r     </text>
+          <text x="0" y="270">     +X@@WWWWWWWWx=Xc*=+=-'.                 '==*WWWWWWWWWWWWWW@@X+     </text>
+          <text x="0" y="280">     :rO@@WWWWWWWW-r#r=---::'.    .':'---+=-r#OWWWWWWWWWWWWWWW@@Or:     </text>
+          <text x="0" y="290">      =cO@@WWWWWW#*:*Ox*----::. :+--:...'-::=+rWWWWWWWWWWWWWW@@Oc=      </text>
+          <text x="0" y="300">       =cO@@WWW  .c-:-xOx*-:--:::....'' .':=-+-WWWWWWWWWWWWW@@Oc=       </text>
+          <text x="0" y="310">        =cO@@x   *r=-::=x##Xc*=:''''':::+cc-+r  O@WWWWWWWWW@@Oc=        </text>
+          <text x="0" y="320">         =cO+  -*=+*=-:':=rx#WWOc+:'.  .-=+c@r.      -*x#@@@Oc=         </text>
+          <text x="0" y="330">              .*---*+=-::::::-+r#WWWW#O###@Wc-=            .''          </text>
+          <text x="0" y="340">               ::::=+++=-:--::::-=*cxXxXxr='':-                         </text>
+          <text x="0" y="350">               ...':=====---------:'':-:-==+++*                         </text>
+          <text x="0" y="360">                .':-==--=-::::'.''''-====++=---                         </text>
+          <text x="0" y="370">                .':----:''''::':::'':---::''':                          </text>
+          <text x="0" y="380">                     .... .'''''''''''''''':'                           </text>
+          <text x="0" y="390">                        .. ........  ..''''                             </text>
           <text x="0" y="400">                                     ..'''                              </text>
         </g>
 
