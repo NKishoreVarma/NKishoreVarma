@@ -1,0 +1,50 @@
+[
+  {
+    "name": "FLOW OS",
+    "repo": "NKishoreVarma/flow-os",
+    "logo": "logo.png",
+    "description": "Enterprise AI Operating System connecting workplace tools and automating knowledge with Multi-Agent RAG.",
+    "tags": [
+      "NextJS",
+      "AI Agents",
+      "RAG",
+      "BullMQ"
+    ]
+  },
+  {
+    "name": "Orvion",
+    "repo": "NKishoreVarma/Orvion",
+    "logo": "op.png",
+    "description": "AI Operational Intelligence Platform for software engineering teams with GitHub analytics.",
+    "tags": [
+      "React",
+      "TypeScript",
+      "NodeJS",
+      "LLM"
+    ]
+  },
+  {
+    "name": "Way4Track",
+    "repo": "NKishoreVarma/WAY4TRACK",
+    "logo": "chess.png",
+    "description": "Fleet & GPS Monitoring Dashboard featuring live vehicle tracking and reports.",
+    "tags": [
+      "NodeJS",
+      "React",
+      "GPS",
+      "Maps"
+    ]
+  },
+  {
+    "name": "SkillVault",
+    "repo": "NKishoreVarma/SkillVault",
+    "logo": "claster.png",
+    "description": "Learning platform where users unlock premium content by completing technical tasks.",
+    "tags": [
+      "NextJS",
+      "PostgreSQL",
+      "Tailwind",
+      "Token Reward"
+    ]
+  }
+]

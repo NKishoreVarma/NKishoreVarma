@@ -1,0 +1,7 @@
+# Local generated files
+merged.json
+projects.svg
+projects-light.svg
+out/
+__pycache__/
+*.pyc
